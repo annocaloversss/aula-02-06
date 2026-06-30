@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cadastro na cabeleleira</title>
+</head>
+<body>
+   <h1>Cadastro Cabelos</h1>
+   <form>
+    <label for="nome">Nome:</label>
+   <input type="text" name="nome" id="nome" placeholder="digite seu nome " required>
+   
+   <label for="email:">email:</label>
+   <input type="text" name="email:" id="email:" placeholder="digite seu email" required>
+   <label for="senha">senha:</label>
+    <input type="password" name="senha" id="password" placeholder="digite sua senha" required>
+
+    <label for="date">data:</label>
+<input type="date" name="date" id="date" required>
+   
+
+
+</select>
+
+<label for="historico">primeira vez no salão?</label>
+<input type="radio" name="historico" required>
+Sim
+
+<input type="radio" name="historico" required>
+não
+
+<label>
+    <input type="checkbox" id="opcoes" required>
+    aceito os termos
+</label>
+
+<label>
+        observações
+</label>
+<textarea rows="4"></textarea>
+<button type="submit">
+    <label>
+        cadastrar 
+    </label>
+
+
+</button>
+
+
+</form> 
+</body>
+</html>
